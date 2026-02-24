@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.5...v0.1.6) (2026-02-24)
+
+
+### Bug Fixes
+
+* restore production environment for secret scoping ([#13](https://github.com/sinhong2011/openclaw-skill-memos/issues/13)) ([dcc12c7](https://github.com/sinhong2011/openclaw-skill-memos/commit/dcc12c77a1fccef4e48e691cfc385c35ef95ae2e))
+
 ## [0.1.5](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.4...v0.1.5) (2026-02-24)
 
 
