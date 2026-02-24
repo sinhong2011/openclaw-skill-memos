@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.2...v0.1.3) (2026-02-24)
+
+
+### Features
+
+* add ClawHub skill publishing to release workflow ([#7](https://github.com/sinhong2011/openclaw-skill-memos/issues/7)) ([09ad4d9](https://github.com/sinhong2011/openclaw-skill-memos/commit/09ad4d917d3bddddbc3f98e0229474bbea3b5613))
+
 ## [0.1.2](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.1...v0.1.2) (2026-02-24)
 
 
