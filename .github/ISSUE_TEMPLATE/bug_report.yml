@@ -1,0 +1,40 @@
+name: Bug Report
+description: Report a bug with the MCP server or skill
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this?
+    validations:
+      required: true
+  - type: input
+    id: memos-version
+    attributes:
+      label: Memos version
+      placeholder: e.g., 0.24.0
+  - type: input
+    id: mcp-version
+    attributes:
+      label: openclaw-memos-mcp version
+      placeholder: e.g., 0.1.0
+  - type: input
+    id: node-version
+    attributes:
+      label: Node.js version
+      placeholder: e.g., 20.11.0
