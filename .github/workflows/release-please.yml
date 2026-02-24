@@ -64,3 +64,24 @@ jobs:
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  publish-skill:
+    needs: [release-please, publish]
+    if: ${{ needs.release-please.outputs.release_created }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+      - run: >
+          npx clawhub@latest publish ./skill
+          --slug usememos
+          --name "Memos"
+          --version "$RELEASE_TAG"
+          --changelog "Release $RELEASE_TAG"
+          --tags latest
+          --no-input
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+          RELEASE_TAG: ${{ needs.release-please.outputs.tag_name }}
