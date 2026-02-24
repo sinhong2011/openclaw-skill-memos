@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.3...v0.1.4) (2026-02-24)
+
+
+### Bug Fixes
+
+* resolve CI not triggering on release-please PRs ([#9](https://github.com/sinhong2011/openclaw-skill-memos/issues/9)) ([9f44d63](https://github.com/sinhong2011/openclaw-skill-memos/commit/9f44d6385a7d9e7a6869dac9b02c0a59b11d5b65))
+
 ## [0.1.3](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.2...v0.1.3) (2026-02-24)
 
 
