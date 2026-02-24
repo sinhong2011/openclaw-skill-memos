@@ -23,6 +23,19 @@ or visibility, and delete memos they no longer need.
 
 ## Prerequisites
 
+### `mcporter` — MCP tool access for OpenClaw
+
+This skill uses MCP tools. For OpenClaw to call MCP tools, `mcporter` must be
+installed and configured. Before using any `memos_*` tool, verify that
+`mcporter` is available by checking for it in the workspace. If it is not
+installed, tell the user to install it:
+
+```bash
+npm install -g mcporter
+```
+
+See [mcporter documentation](http://mcporter.dev) for setup details.
+
 ### `openclaw-memos-mcp` MCP server
 
 This skill requires the `openclaw-memos-mcp` MCP server to be running. Before
