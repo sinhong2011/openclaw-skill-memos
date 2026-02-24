@@ -1,5 +1,10 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 
+// Mock dotenv so it doesn't load the real .env file during tests
+vi.mock('dotenv', () => ({
+  config: vi.fn(),
+}));
+
 describe('loadConfig', () => {
   const originalEnv = process.env;
 
