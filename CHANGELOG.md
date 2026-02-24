@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.4...v0.1.5) (2026-02-24)
+
+
+### Bug Fixes
+
+* remove production environment gate from publish jobs ([#11](https://github.com/sinhong2011/openclaw-skill-memos/issues/11)) ([88eaab7](https://github.com/sinhong2011/openclaw-skill-memos/commit/88eaab7ad65cfd567f92b081b8155759ca20e2b7))
+
 ## [0.1.4](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.3...v0.1.4) (2026-02-24)
 
 
