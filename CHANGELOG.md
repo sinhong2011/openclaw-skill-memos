@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.7...v0.1.8) (2026-02-24)
+
+
+### Bug Fixes
+
+* authenticate clawhub CLI before publishing skill ([#17](https://github.com/sinhong2011/openclaw-skill-memos/issues/17)) ([89f73db](https://github.com/sinhong2011/openclaw-skill-memos/commit/89f73db74aace38821b01bc70c79a33c97cf8e65))
+
 ## [0.1.7](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.6...v0.1.7) (2026-02-24)
 
 
