@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.6...v0.1.7) (2026-02-24)
+
+
+### Bug Fixes
+
+* add production environment to publish-skill job ([#15](https://github.com/sinhong2011/openclaw-skill-memos/issues/15)) ([5bade27](https://github.com/sinhong2011/openclaw-skill-memos/commit/5bade274f241437496c42c18bb79bf103f6ea7ad))
+
 ## [0.1.6](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.5...v0.1.6) (2026-02-24)
 
 
