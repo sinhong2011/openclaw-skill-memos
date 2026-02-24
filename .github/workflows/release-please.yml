@@ -76,6 +76,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20.x
+      - run: npx clawhub@latest login --token "$CLAWHUB_TOKEN" --no-browser
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
       - run: >
           npx clawhub@latest publish ./skill
           --slug usememos
@@ -85,5 +88,4 @@ jobs:
           --tags latest
           --no-input
         env:
-          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
           RELEASE_TAG: ${{ needs.release-please.outputs.tag_name }}
