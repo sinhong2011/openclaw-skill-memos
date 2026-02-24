@@ -1,6 +1,6 @@
 {
   "name": "openclaw-memos-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for full CRUD operations on a Memos instance",
   "type": "module",
   "bin": {
