@@ -83,8 +83,8 @@ jobs:
           npx clawhub@latest publish ./skill
           --slug usememos
           --name "Memos"
-          --version "$RELEASE_TAG"
-          --changelog "Release $RELEASE_TAG"
+          --version "${RELEASE_TAG#v}"
+          --changelog "Release ${RELEASE_TAG#v}"
           --tags latest
           --no-input
         env:

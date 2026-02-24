@@ -25,12 +25,14 @@ or visibility, and delete memos they no longer need.
 
 ### `openclaw-memos-mcp` MCP server
 
-Add to your MCP configuration:
+This skill requires the `openclaw-memos-mcp` MCP server to be running. Before
+using any `memos_*` tool, check if the tools are available. If not, tell the
+user they need to add the MCP server to their configuration:
 
 ```json
 {
   "mcpServers": {
-    "memos-mcp": {
+    "memos": {
       "command": "npx",
       "args": ["openclaw-memos-mcp"],
       "env": {
@@ -42,7 +44,11 @@ Add to your MCP configuration:
 }
 ```
 
-Get your access token from Memos: Settings > Access Tokens > Create.
+Tell the user to:
+1. Replace `MEMOS_API_URL` with their Memos instance URL
+2. Get an access token from Memos: **Settings > Access Tokens > Create**
+3. Replace `<your-access-token>` with the token
+4. Restart their MCP client after saving the configuration
 
 ## Workflow
 
