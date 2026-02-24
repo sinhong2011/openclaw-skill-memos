@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.2](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.1...v0.1.2) (2026-02-24)
+
+
+### Features
+
+* add shebang and executable flag to built binary ([#6](https://github.com/sinhong2011/openclaw-skill-memos/issues/6)) ([ec8350c](https://github.com/sinhong2011/openclaw-skill-memos/commit/ec8350c2599a9dc12f2f4d1a79b0bd33fe56e91f))
+
+
+### Bug Fixes
+
+* merge publish into release-please workflow ([#4](https://github.com/sinhong2011/openclaw-skill-memos/issues/4)) ([0d61cf2](https://github.com/sinhong2011/openclaw-skill-memos/commit/0d61cf2485a05d28d56523a8ffab51ecf1db17bd))
+
 ## [0.1.1](https://github.com/sinhong2011/openclaw-skill-memos/compare/v0.1.0...v0.1.1) (2026-02-24)
 
 
